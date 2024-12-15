@@ -1,0 +1,11 @@
+bluetooth {
+    status = "enabled";  // Enable Bluetooth
+    device_name = "lilly58";  // Change to your desired name
+    device_type = "keyboard"; // Set the device type as keyboard
+};
+
+// Enable Split Keyboard Functionality
+split {
+    left-half = <&gpio0 0>; // Define the GPIO pin or communication interface for the left half
+    right-half = <&gpio0 1>; // Define the GPIO pin or communication interface for the right half
+};
