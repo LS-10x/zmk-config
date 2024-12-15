@@ -1,0 +1,11 @@
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        // Define key positions for each row and column
+        bindings = <&kp Q> <&kp W> <&kp E> <&kp R> <&kp T> <&kp Y> <&kp U>,
+                   <&kp A> <&kp S> <&kp D> <&kp F> <&kp G> <&kp H> <&kp J>,
+                   <&kp Z> <&kp X> <&kp C> <&kp V> <&kp B> <&kp N> <&kp M>,
+                   <&kp SPACE> <&kp TAB> <&kp ESC> <&kp ENTER> <&kp LEFT> <&kp RIGHT> <&kp UP>;
+    };
+};
